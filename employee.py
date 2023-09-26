@@ -90,8 +90,6 @@ jan.add_compensation(Commission(220,3))
 
 # Robbie works on a monthly salary of 2000 and receives a bonus commission of 1500.  Their total pay is 3500.
 robbie = Employee('Robbie')
-robbie.add_compensation(Salary(2000))
-robbie.add_compensation(BonusCommission(1500))
 
 # Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600.  Their total pay is 4200.
 ariel = Employee('Ariel')
